@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get('DEBUG',0)))
 
-ALLOWED_HOSTS = ['ec2-54-172-115-12.compute-1.amazonaws.com']
+ALLOWED_HOSTS = ["ec2-3-86-185-221.compute-1.amazonaws.com",]
 ALLOWED_HOSTS.extend(
     filter(
         None,
