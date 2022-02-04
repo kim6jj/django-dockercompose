@@ -35,54 +35,64 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>About Me</h1>
-							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<h1>JJ's Personal Page</h1>
+							<p>This site was created using a responsive bootstrap template from <a href="http://html5up.net">HTML5 UP.</a><br />
+							A Django site utilizing docker-compose then deployed to AWS. <br />
+                            The repository can be found below:</p>
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
+								<li><a href="https://github.com/kim6jj/django-dockercompose" class="button scrolly">Check it out here</a></li>
 							</ul>
 						</div>
 					</section>
 
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+                        <section>
+							<a href="#" class="image"><img src="{% static './dive.jpg' %}" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Travel</h2>
+									<p>I love to travel and everything it comes with. Trying new things, meeting new people from different cultures, and gaining new perspective. <br />
+                                    I particularly love any activities or places with water. Surfing, swimming, scuba diving, free diving, you name it!</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+                                        <i class='fas fa-arrow-left' style='font-size:36px;color:white'></i>
+                                        <li><p>Swimming with whale sharks in Oslob, Philippines!</p></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<iframe width="433" src="https://www.youtube.com/embed/52nHFbPrSPM" alt="" data-position="top center"></iframe>
+							<a href="#" class="image"><img src="{% static './me.jpg' %}" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Photography</h2>
+									<p>I enjoy taking photos and editing footage of whatever I do! <br />
+                                        I shoot on a A6300 and GoPro!
+                                    </p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<i class='fas fa-arrow-left' style='font-size:36px;color:white'></i>
+                                        <li><p>Taken at the teamLab Borderless museum in Tokyo, Japan!</p></li>
 									</ul>
 								</div>
 							</div>
 						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+                        <section>
+							<iframe width="1600" src="https://www.youtube.com/embed/52nHFbPrSPM" alt="" data-position="top center"></iframe>
 							<div class="content">
 								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+									<h2>Video Editing</h2>
+									<p>First video with compiled footage from trips to Philippines and Vietnam! 
+                                        Learning to transition and actually manually created a hyperlapse from still photos!
+                                    </p>
+                                    <ul class="actions">
+										<i class='fas fa-arrow-left' style='font-size:36px;color:white'></i>
+                                        <li><p>Check it out!</p></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 					</section>
+
 
 				<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
@@ -90,35 +100,44 @@
 							<h2>My Background</h2>
 							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 							<div class="features">
+                                <section>
+									<span class="icon solid major fa-plane"></span>
+									<h3>Places</h3>
+									<p>Currently in San Diego, from the Washington DC Metropolitan area. <br />
+                                        Have visited: Philippines, Vietnam, S. Korea, Japan, Mexico, Canada, Thailand, China</p>
+								</section>
 								<section>
 									<span class="icon solid major fa-angle-right"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Scripting</h3>
+									<p>Experience with Python, know basic Java, bash, Javascript. <br />
+                                        Familiar with Linux, Windows, and MacOS.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-cloud"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Cloud Experience</h3>
+									<p>Mostly experience with AWS (planning to learn GCP/Azure on an associate level). Have SAA and Cloud Prac certifications.<br />
+                                        - CI/CD Stack using CodeCommit, CodeBuild, CodeDeploy and Pipeline as orchestration. <br />
+                                        - Networking within AWS and OnPrem</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-lock"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-plane"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Security/Compliance</h3>
+									<p>Familiar with DoD STIGs, FedRAMP, PCI-DSS, ISO 27001. <br />
+                                        Current Secret clearance with the DoD (previously TS).</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Networking</h3>
+									<p>Experience mainly with Brocade (Now Ruckus and Extreme) and Cisco platforms as well as some Juniper. <br />
+                                        TCP/IP Networking, OSPF, BGP, EIGRP, Docker (Docker-compose), Ansible (AWX, Tower), CloudFormation/Terraform
+                                    </p>
 								</section>
 								<section>
 									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Certifactions</h3>
+									<p>Brocade BCNE, Cisco CCNA R&S, Juniper JNCIA <br />
+                                        AWS SAA-C02, AWS CLF-C01, Comptia Security+ <br />
+                                        VMWare VCA-NV</p>
 								</section>
 							</div>
 							<ul class="actions">
@@ -150,7 +169,9 @@
 											</div>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
+											<li><a href="" class="button submit">Doesn't do anything yet!</a></li>
+                                            <p>&nbsp; &nbsp; Connect with me here instead!&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
+                                            <i class='fas fa-arrow-right' style='font-size:36px;color:white'></i>
 										</ul>
 									</form>
 								</section>
